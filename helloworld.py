@@ -1,8 +1,7 @@
-import random
-print("Joel Harrison")
-one = random.randint(0,100)
-two = random.randint(0,100)
+
+a = ["Ankit", "Christina", "Alex"]
+a.sort()
+print(a)
+one = a[0]
+one = one[:-1]
 print(one)
-print (two)
-print("Sum = ", one + two)
-print("Average = " + str((one + two) / 2.0))
